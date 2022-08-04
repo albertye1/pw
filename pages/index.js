@@ -20,7 +20,7 @@ export default function Home() {
         <img src="/albert.jpg" className="rounded-full border-4 border-green translate-y-7" alt="me"></img>
 
         <p className={styles.description}>
-          Math/CS @ UC Berkeley. Pretty good at data structures and algorithms.
+          Math + CS @ UC Berkeley. Pretty good at data structures and algorithms.
         </p>
 
         <div className={styles.grid2}>
