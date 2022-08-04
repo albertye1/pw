@@ -2,7 +2,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Navbar from '../components/navbar.jsx'
 
 export default function Page() {
   return (
@@ -19,14 +18,14 @@ export default function Page() {
         </h1>
 
         <p className={styles.description}>
-          Here are some projects I've worked on in the past.
+          Here are some projects I&apos;ve worked on in the past.
         </p>
 
         <div className={styles.grid}>
           <a href="https://github.com/xyzyzl/hard-cp" className={styles.card}>
             <h2>Competitive Programming &rarr;</h2>
             <p>
-              Competitive programming problems I've done over the years.
+              Competitive programming problems I&apos;ve done over the years.
             </p>
           </a>
 
@@ -40,7 +39,7 @@ export default function Page() {
             className={styles.card}
           >
             <h2>Linux Tinkering &rarr;</h2>
-            <p>I've worked a lot with Linux configuration in the past, and the dotfiles I frequently used are here.</p>
+            <p>I&apos;ve worked a lot with Linux configuration in the past, and the dotfiles I frequently used are here.</p>
           </a>
 
           <a

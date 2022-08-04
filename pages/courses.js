@@ -2,7 +2,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Navbar from '../components/navbar.jsx'
 
 export default function Page() {
   return (
@@ -31,7 +30,7 @@ export default function Page() {
 		<h2 className="text-3xl font-bold underline">
 			2021-2022
 		</h2>
-		<ul class="list-disc">
+		<ul className="list-disc">
 			<li><b className="text-purple">Math 004A:</b> Intermediate Calculus</li>
 			<li><b className="text-purple">Math 004C:</b> Linear Algebra</li>
 		</ul>

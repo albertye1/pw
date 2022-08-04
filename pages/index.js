@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -13,30 +14,29 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className="text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-blue to-green">
-          Hi, i'm Albert.
+          Hi, I&apos;m Albert.
         </h1>
         
-        <img src="albert.jpg" className="rounded-full border-4 border-green translate-y-7"></img>
+        <img src="/albert.jpg" className="rounded-full border-4 border-green translate-y-7" alt="me"></img>
 
         <p className={styles.description}>
           Math/CS @ UC Berkeley. Pretty good at data structures and algorithms.
         </p>
 
         <div className={styles.grid2}>
-          <a href="/projects" className={styles.card}>
-            <h2>Projects 🛠</h2>
-          </a>
+          <Link href="/projects">
+            <a className={styles.card}><h2>Projects 🛠</h2></a>
+          </Link>
 
-          <a href="../res.pdf" className={styles.card3}>
-            <h2>Resume 📃</h2>
-          </a>
+          <Link href="../res.pdf">
+            <a className={styles.card3}><h2>Resume 📃</h2></a>
+          </Link>
 
-          <a
+          <Link
             href="/courses"
-            className={styles.card2}
           >
-            <h2>Coursework 📝</h2>
-          </a>
+            <a className={styles.card2}><h2>Coursework 📝</h2></a>
+          </Link>
 
         </div>
       </main>
