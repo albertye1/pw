@@ -20,7 +20,7 @@ export default function Page() {
 		<h2 className="text-3xl font-bold underline">
 			Fall 2022
 		</h2>
-		<ul class="list-disc">
+		<ul className="list-disc">
 			<li><b className="text-purple">Math H54:</b> Honors Linear Algebra and Differential Equations</li>
 			<li><b className="text-purple">CS 61A:</b> Structure and Interpretation of Computer Programs</li>
 			<li><b className="text-purple">CS 61B:</b> Data Structures</li>
