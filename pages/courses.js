@@ -7,7 +7,7 @@ export default function Page() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>courses</title>
+        <title>Relevant Coursework</title>
         <meta name="description" content="courses ive taken" />
         <link rel="icon" href="/icon2.ico" />
       </Head>
@@ -16,14 +16,14 @@ export default function Page() {
         <center><h1 className="text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-purple to-pink">
 			Courses
         </h1></center>
+        <hrule></hrule>
 		<h2 className="text-3xl font-bold underline">
 			Fall 2022
 		</h2>
 		<ul className="list-disc">
-			<li><b className="text-purple">Math H54:</b> Honors Linear Algebra and Differential Equations</li>
+			<li><b className="text-purple">CS 70:</b> Discrete Mathematics and Probability Theory</li>
 			<li><b className="text-purple">CS 61A:</b> Structure and Interpretation of Computer Programs</li>
 			<li><b className="text-purple">CS 61B:</b> Data Structures</li>
-			<li><b className="text-purple">HIST 3:</b> Islamic and Eastern Roman History</li>
 		</ul>
 		
 
