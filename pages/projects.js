@@ -9,7 +9,7 @@ export default function Page() {
       <Head>
         <title>projects</title>
         <meta name="description" content="projects ive done" />
-        <link rel="icon" href="/icon2.ico" />
+        <link rel="icon" href="/~aly/icon2.ico" />
       </Head>
 
       <main className={styles.main}>
@@ -56,14 +56,11 @@ export default function Page() {
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://ocf.berkeley.edu"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
+          Hosted by the Open Computing Facility
         </a>
       </footer>
     </div>

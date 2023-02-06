@@ -9,7 +9,7 @@ export default function Home() {
       <Head>
         <title>albert ye</title>
         <meta name="description" content="hi im albert" />
-        <link rel="icon" href="/icon2.ico" />
+        <link rel="icon" href="/~aly/icon2.ico" />
       </Head>
 
       <main className={styles.main}>
@@ -17,7 +17,7 @@ export default function Home() {
           Hi, I&apos;m Albert.
         </h1>
         
-        <img src="/albert.jpg" className="rounded-full border-4 border-green translate-y-7" alt="me"></img>
+        <img src="/~aly/albert.jpg" className="rounded-full border-4 border-green translate-y-7" alt="me"></img>
 
         <p className={styles.description}>
           Math + CS @ UC Berkeley. Pretty good at data structures and algorithms.
@@ -28,7 +28,7 @@ export default function Home() {
             <a className={styles.card}><h2>Projects 🛠</h2></a>
           </Link>
 
-          <Link href="../res.pdf">
+          <Link href="/res.pdf">
             <a className={styles.card3}><h2>Resume 📃</h2></a>
           </Link>
 
@@ -43,14 +43,11 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://ocf.berkeley.edu"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
+          Hosted by the Open Computing Facility
         </a>
       </footer>
     </div>

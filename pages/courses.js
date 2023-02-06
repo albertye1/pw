@@ -9,7 +9,7 @@ export default function Page() {
       <Head>
         <title>Relevant Coursework</title>
         <meta name="description" content="courses ive taken" />
-        <link rel="icon" href="/icon2.ico" />
+        <link rel="icon" href="/~aly/icon2.ico" />
       </Head>
 
       <main className={styles.main2}>
@@ -17,6 +17,16 @@ export default function Page() {
 			Courses
         </h1></center>
         <hrule></hrule>
+		<h2 className="text-3xl font-bold underline">
+			Spring 2023
+		</h2>
+		<ul className="list-disc">
+			<li><b className="text-purple">CS 370:</b> Adaptive Instruction Methods in Computer Science</li>
+			<li><b className="text-purple">CS 61C:</b> Great Ideas of Computer Architecture (Machine Structures)</li>
+			<li><b className="text-purple">CS 170:</b> Efficient Algorithms and Intracatable Problems</li>
+			<li><b className="text-purple">CS 197:</b> Academic Intern for CS 70 (Discrete Mathematics and Probability Theory)</li>
+			<li><b className="text-purple">Math 110:</b> Linear Algebra (Upper Division)</li>
+		</ul>
 		<h2 className="text-3xl font-bold underline">
 			Fall 2022
 		</h2>
@@ -38,14 +48,11 @@ export default function Page() {
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://ocf.berkeley.edu"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
+          Hosted by the Open Computing Facility
         </a>
       </footer>
     </div>
