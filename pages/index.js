@@ -29,7 +29,9 @@ export default function Home() {
           </Link>
 
           <Link href="/res.pdf">
-            <a className={styles.card3}><h2>Resume 📃</h2></a>
+            <a className={styles.card3}
+	  			target="_blank"
+	  			rel="noopener noreferrer"><h2>Resume 📃</h2></a>
           </Link>
 
           <Link

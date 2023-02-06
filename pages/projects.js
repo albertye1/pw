@@ -1,6 +1,6 @@
-
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 export default function Page() {
@@ -55,13 +55,11 @@ export default function Page() {
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://ocf.berkeley.edu"
-          target="_blank"
-          rel="noopener noreferrer"
+        <Link
+          href="/"
         >
-          Hosted by the Open Computing Facility
-        </a>
+	    Return to Homepage
+        </Link>
       </footer>
     </div>
   )
