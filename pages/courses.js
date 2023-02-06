@@ -31,14 +31,14 @@ export default function Page() {
 			Fall 2022
 		</h2>
 		<ul className="list-disc">
-			<li><b className="text-purple">CS 70:</b> Discrete Mathematics and Probability Theory</li>
-			<li><b className="text-purple">CS 61A:</b> Structure and Interpretation of Computer Programs</li>
-			<li><b className="text-purple">CS 61B:</b> Data Structures</li>
+			<li><b className="text-purple">CS 70:</b> Discrete Mathematics and Probability Theory <p className="text-purple">(A+)</p></li>
+			<li><b className="text-purple">CS 61A:</b> Structure and Interpretation of Computer Programs <p className="text-purple">(A)</p></li>
+			<li><b className="text-purple">CS 61B:</b> Data Structures <p className="text-purple">(A+)</p></li>
 		</ul>
 		
 
 		<h2 className="text-3xl font-bold underline">
-			2021-2022
+			2021-2022 (Concurrent Enrollment)
 		</h2>
 		<ul className="list-disc">
 			<li><b className="text-purple">Math 004A:</b> Intermediate Calculus</li>
