@@ -22,32 +22,27 @@ export default function Page() {
 		</h2>
 		<ul className="list-disc">
 		<li><b className="text-purple">CS 370:</b> Adaptive Instruction Methods in Computer Science</li>
-		<li><b className="text-purple">CS 61C:</b> Great Ideas of Computer Architecture (Machine Structures)</li>
-		<li><b className="text-purple">CS 170:</b> Efficient Algorithms and Intracatable Problems</li>
+		<li><b className="text-purple">CS 61C:</b> Great Ideas of Computer Architecture (Machine Structures) (A)</li>
+		<li><b className="text-purple">CS 170:</b> Efficient Algorithms and Intracatable Problems (A)</li>
 		<li><b className="text-purple">CS 197:</b> Academic Intern for CS 70 (Discrete Mathematics and Probability Theory)</li>
-		<li><b className="text-purple">Math 110:</b> Linear Algebra (Upper Division)</li>
+		<li><b className="text-purple">Math 110:</b> Linear Algebra (Upper Division) (A)</li>
 		</ul>
 
 		<h2 className="text-3xl font-bold underline">
 		Fall 2022
 		</h2>
 		<ul className="list-disc">
-		<li><b className="text-purple">CS 70:</b> Discrete Mathematics and Probability Theory 
-		<i className="text-purple">(A+)</i></li>
-		<li><b className="text-purple">CS 61A:</b> Structure and Interpretation of Computer Programs
-		<i className="text-purple">(A)</i></li>
-		<li><b className="text-purple">CS 61B:</b> Data Structures
-		<i className="text-purple">(A+)</i></li>
+		<li><b className="text-purple">CS 70:</b> Discrete Mathematics and Probability Theory (A+)</li>
+		<li><b className="text-purple">CS 61A:</b> Structure and Interpretation of Computer Programs (A)</li>
+		<li><b className="text-purple">CS 61B:</b> Data Structures (A+)</li>
 		</ul>
 
 		<h2 className="text-3xl font-bold underline">
 		2021-2022 (Concurrent Enrollment)
 		</h2>
 		<ul className="list-disc">
-		<li><b className="text-purple">Math 004A:</b> Intermediate Calculus
-		<i className="text-purple">(A)</i></li>
-		<li><b className="text-purple">Math 004C:</b> Linear Algebra
-		<i className="text-purple">(A)</i></li>
+		<li><b className="text-purple">Math 004A:</b> Intermediate Calculus (A)</li>
+		<li><b className="text-purple">Math 004C:</b> Linear Algebra (A)</li>
 		</ul>
 		</main>
 

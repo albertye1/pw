@@ -9,7 +9,7 @@ export default function Page() {
       <Head>
         <title>projects</title>
         <meta name="description" content="projects ive done" />
-        <link rel="icon" href="/~aly/icon2.ico" />
+        <link rel="icon" href="icon2.ico" />
       </Head>
 
       <main className={styles.main}>
@@ -22,10 +22,10 @@ export default function Page() {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://github.com/xyzyzl/hard-cp" className={styles.card}>
-            <h2>Competitive Programming &rarr;</h2>
+          <a href="https://github.com/albertye1/stegosaurus" className={styles.card}>
+            <h2>PNG Encoder &rarr;</h2>
             <p>
-              Competitive programming problems I&apos;ve done over the years.
+	  			Wrote a program in Rust to encode and decode hidden messages in PNG files.
             </p>
           </a>
 
@@ -43,7 +43,7 @@ export default function Page() {
           </a>
 
           <a
-            href="https://github.com/xyzyzl/shordle"
+            href="https://github.com/albertye1/shordle"
             className={styles.card}
           >
             <h2>Shordle &rarr;</h2>

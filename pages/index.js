@@ -9,7 +9,7 @@ export default function Home() {
       <Head>
         <title>albert ye</title>
         <meta name="description" content="hi im albert" />
-        <link rel="icon" href="/~aly/icon2.ico" />
+        <link rel="icon" href="icon2.ico" />
       </Head>
 
       <main className={styles.main}>
@@ -17,10 +17,10 @@ export default function Home() {
           Hi, I&apos;m Albert.
         </h1>
         
-        <img src="/~aly/albert.jpg" className="rounded-full border-4 border-green translate-y-7" alt="me"></img>
+        <img src="albert.jpg" className="rounded-full border-4 border-green translate-y-7" alt="me"></img>
 
         <p className={styles.description}>
-          Math + CS @ UC Berkeley. Pretty good at data structures and algorithms.
+          Math + CS @ UC Berkeley.
         </p>
 
         <div className={styles.grid2}>
@@ -28,7 +28,7 @@ export default function Home() {
             <a className={styles.card}><h2>Projects 🛠</h2></a>
           </Link>
 
-          <Link href="/res.pdf">
+          <Link href="res.pdf">
             <a className={styles.card3}
 	  			target="_blank"
 	  			rel="noopener noreferrer"><h2>Resume 📃</h2></a>
